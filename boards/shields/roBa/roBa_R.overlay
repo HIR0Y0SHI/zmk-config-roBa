@@ -64,17 +64,6 @@
     };
 };
 
-trackball_listener: trackball_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball>;
-
-    scroll_on_layer2 {
-        layers = <2>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
-         input-processors = <&zip_xy_to_scroll_mapper &zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT)>;
-    };
-};
-
 / {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
