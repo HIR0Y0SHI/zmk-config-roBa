@@ -92,7 +92,7 @@
         NUM {
             bindings = <
 &kp EXCLAMATION             &kp AT_SIGN      &kp HASH         &kp DOLLAR       &kp PERCENT                                          &kp CARET         &kp AMPERSAND      &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&mt LEFT_SHIFT NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5       &kp LC(LA(KP_NUMBER_0))      &kp PLUS   &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9          &mt RIGHT_SHIFT NUMBER_0
+&mt LEFT_SHIFT NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp N5       &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8   &kp NUMBER_9          &mt RIGHT_SHIFT NUMBER_0
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD   &kp DOUBLE_QUOTES            &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans       &trans                       &trans     &trans                                                                    &kp PIPE
             >;
