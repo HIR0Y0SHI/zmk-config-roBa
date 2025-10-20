@@ -10,7 +10,7 @@ layers:
   - U
   - {t: I, h: SCROLL}
   - O
-  - {t: P, h: FUNCTION}
+  - {t: '&to_layer_0 P', h: FUNCTION}
   - {t: A, h: LEFT SHIFT}
   - S
   - D
@@ -23,25 +23,25 @@ layers:
   - K
   - L
   - {t: ;, h: RIGHT SHIFT}
-  - {t: Z, h: LEFT CTRL}
+  - {t: Z, h: LEFT CONTROL}
   - X
   - C
   - V
   - B
-  - {t: '''', h: SCROLL}
-  - {t: ;, h: SCROLL}
+  - {t: '&to_layer_0 SINGLE_QUOTE', h: SCROLL}
+  - {t: '&to_layer_0 SEMICOLON', h: SCROLL}
   - N
   - M
   - ','
   - .
-  - {t: /, h: RIGHT CTRL}
+  - {t: /, h: RIGHT CONTROL}
   - LCTRL
   - LEFT ALT
-  - LEFT GUI
-  - {t: '変換', h: NUM}
+  - LEFT COMMAND
+  - {t: '&to_layer_0 INT_HENKAN', h: NUM}
   - {t: SPACE, h: MOUSE}
-  - {t: BACKSPACE, h: ARROW}
-  - {t: TAB, h: NUM}
+  - {t: '&to_layer_0 BACKSPACE', h: ARROW}
+  - {t: '&to_layer_0 TAB', h: NUM}
   - {t: ENTER, h: MOUSE}
   - DEL
   NUM:
@@ -85,7 +85,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
   MOUSE:
@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - Ctl+UP ARROW
   - {t: ▽, type: trans}
-  - C VOL UP
+  - VOLUME UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
@@ -103,7 +103,7 @@ layers:
   - Ctl+LEFT ARROW
   - Ctl+DOWN ARROW
   - Ctl+RIGHT ARROW
-  - C VOL DN
+  - VOLUME DOWN
   - {t: ▽, type: trans}
   - Gui+[
   - Gui+]
@@ -127,11 +127,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+ESCAPE
-  - {type: held}
+  - {t: Ctl+ESCAPE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARROW:
   - ESCAPE
@@ -165,6 +164,8 @@ layers:
   - {t: ▽, type: trans}
   - Gui+SPACE
   - Alt+SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,16 +221,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUNCTION:
-  - BT 0
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - F1
   - F2
   - F3
   - F4
-  - F5
+  - {t: F5, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -261,19 +262,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - F12
-  layer_6:
+  '6':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT 0
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -313,7 +314,7 @@ combos:
 - p: [12, 13]
   k: Sft+TAB
 - p: [11, 10]
-  k: '&to_layer_0 無変換'
+  k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
   k: '"'
 - p: [24, 25]
