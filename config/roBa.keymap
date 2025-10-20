@@ -102,6 +102,8 @@
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD   &kp DOUBLE_QUOTES            &kp COLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN      &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans       &trans                       &trans     &trans                                                                    &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         MOUSE {
