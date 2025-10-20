@@ -113,6 +113,8 @@
 &trans      &trans              &trans              &trans               &trans             &trans      &trans                &trans                 &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &trans
 &trans      &trans              &trans              &trans               &kp LC(ESCAPE)     &trans      &trans                &trans                                                                      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp LC(LEFT_ARROW) LC(RIGHT_ARROW)>;
         };
 
         ARROW {
