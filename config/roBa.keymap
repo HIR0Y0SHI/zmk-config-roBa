@@ -74,6 +74,7 @@
             tapping-term-ms = <200>;
         };
 
+        // 後で消す
         rot_msc: sensor_rotate_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
