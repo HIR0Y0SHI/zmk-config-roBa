@@ -89,7 +89,7 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   MOUSE:
-  - ESCAPE
+  - '`'
   - {t: ▽, type: trans}
   - Ctl+UP ARROW
   - {t: ▽, type: trans}
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Ctl+ESCAPE, type: held}
+  - {t: ESCAPE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
