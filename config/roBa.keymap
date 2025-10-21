@@ -110,7 +110,7 @@
 
         MOUSE {
             bindings = <
-&kp GRAVE  &trans              &kp LC(UP_ARROW)    &trans               &kp C_VOLUME_UP                                      &trans                 &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
+&kp GRAVE  &trans              &kp LC(UP_ARROW)    &trans               &kp C_VOLUME_UP                                      &trans                 &mkp MB3        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
 &trans     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &trans      &kp LG(LEFT_BRACKET)  &kp RG(RIGHT_BRACKET)  &mkp MB1        &kp UP_ARROW      &mkp MB2           &kp BACKSPACE
 &trans     &trans              &trans              &trans               &trans             &trans      &trans                &trans                 &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &trans
 &trans     &trans              &trans              &trans               &kp ESCAPE         &trans      &trans                &trans                                                                      &trans
