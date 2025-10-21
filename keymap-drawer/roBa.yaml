@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - '|'
+  - '`'
   - {t: ▽, type: trans}
   - Ctl+LEFT ARROW
   - Ctl+DOWN ARROW
