@@ -20,7 +20,7 @@ layers:
   - '-'
   - H
   - J
-  - {t: '&to_layer_0 K', h: ARROW}
+  - K
   - L
   - {t: ;, h: RIGHT SHIFT}
   - {t: Z, h: LEFT CONTROL}
@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Gui+Ctl+SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
